@@ -1,3 +1,29 @@
+
+@font-face{
+    font-family: "Museo W01 900";
+    src: url("../font/Museo\ W01\ 900/4cc9d692753925335e7af83ecf6e6815.eot");
+    src: url("../font/Museo\ W01\ 900/4cc9d692753925335e7af83ecf6e6815.eot?#iefix")format("embedded-opentype"),
+        url("../font/Museo\ W01\ 900/4cc9d692753925335e7af83ecf6e6815.woff")format("woff"),
+        url("../font/Museo\ W01\ 900/4cc9d692753925335e7af83ecf6e6815.woff2")format("woff2"),
+        url("../font/Museo\ W01\ 900/4cc9d692753925335e7af83ecf6e6815.ttf")format("truetype"),
+        url("../font/Museo\ W01\ 900/4cc9d692753925335e7af83ecf6e6815.svg#Museo W01 900")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family: "Emirates Bold";
+    src: url("../font/Emirates\ Bold/77eb99c5abc837144cabc9c07da37109.eot");
+    src: url("../font/Emirates\ Bold/77eb99c5abc837144cabc9c07da37109.eot?#iefix")format("embedded-opentype"),
+        url("../font/Emirates\ Bold/77eb99c5abc837144cabc9c07da37109.woff")format("woff"),
+        url("../font/Emirates\ Bold/77eb99c5abc837144cabc9c07da37109.woff2")format("woff2"),
+        url("../font/Emirates\ Bold/77eb99c5abc837144cabc9c07da37109.ttf")format("truetype"),
+        url("../font/Emirates\ Bold/77eb99c5abc837144cabc9c07da37109.svg#Emirates Bold")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
 /********** Template CSS **********/
 :root {
     --primary: #6244C5;
@@ -105,15 +131,8 @@
 
 /*** Header ***/
 #home {
-    /* margin-bottom: 6rem; */
-    /* background: url(../img/back2.jpg) left top no-repeat; */
-/* background-size: cover; */
-position: relative;
-  z-index: 1;
-  background: url(../img/back2.jpg) no-repeat scroll center center;
-  background-size: cover;
-  height: 350px;
-
+    margin-bottom: 6rem;
+    background: url(../img/bg-header.png) left top no-repeat;
 }
 
 .typed-cursor {
