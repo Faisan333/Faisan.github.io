@@ -49,3 +49,12 @@ window.onscroll = () => {
 
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
+
+   // Back to top button
+   $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').fadeIn('slow');
+    } else {
+      $('.back-to-top').fadeOut('slow');
+    }
+  });

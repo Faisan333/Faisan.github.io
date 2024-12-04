@@ -1231,3 +1231,42 @@ section:nth-child(odd) .animate.scroll,
     bottom: 45px;
     z-index: 99;
 }
+
+.back-to-top {
+    position: fixed;
+    /* display: none; */
+    /* background: #46200b; */
+    color: #fff;
+    /* width: 44px;
+    height: 44px; */
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 4;
+  }
+  
+  .back-to-top i {
+    padding-top: 12px;
+    color: #fff;
+    
+  }
+  .bounce {
+    animation: bounceIn 2s infinite 2s;
+  }
+  
+  @keyframes bounceIn {
+      0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+      40% {
+      transform: translateY(-30px);
+    }
+      60% {
+      transform: translateY(-15px);
+    }
+  }
